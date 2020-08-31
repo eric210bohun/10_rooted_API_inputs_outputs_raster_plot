@@ -95,6 +95,6 @@ email_eric <- email_eric %>% attachment("~/projects/raster_plot_ONS/10_rooted_AP
 smtp <- server(host = "smtp.gmail.com",
                port = 465,
                username = "oedipusatcolonussheffield@gmail.com",
-               password = "FD5neta6bhSGVhZ")
+               password = "XXXXXX")
 smtp(email_eric, verbose = TRUE)
   
